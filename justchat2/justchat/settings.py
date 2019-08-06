@@ -62,7 +62,7 @@ WSGI_APPLICATION = 'justchat.wsgi.application'
 # mysite/settings.py
 # Channels
 ASGI_APPLICATION = 'justchat.routing.application'
-
+'''
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
@@ -71,6 +71,7 @@ CHANNEL_LAYERS = {
         },
     },
 }
+'''
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
